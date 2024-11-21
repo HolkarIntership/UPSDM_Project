@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+
+<style>
+
+    .flexbox{
+        background-color: blue;
+        padding: 10px;
+        display: flex;
+        /* flex: 1; */
+        /* flex-wrap: wrap; */
+    }
+
+    .flexbox > div{
+        background-color: aquamarine;
+        padding: 20px;
+        /* width: 20%; */
+    }
+    .item1{
+        flex: 1;
+    }
+
+
+
+    /* Grid  */
+    .gridbox{
+        background-color: blueviolet;
+        padding: 10px;
+        display: grid;
+        grid-template-columns: repeat(3, (minmax(0 1fr)));
+        gap: 15px;
+    }
+    .gridbox > div{
+        background-color: cadetblue;
+        padding: 20px;
+    }
+    
+
+</style>
+
+
+  </head>
+  <body>
+    <h1>Flex</h1>
+
+    <div class="flexbox">
+      <div class="item1">1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, obcaecati!</div>
+      <div class="item2">2</div>
+      <div class="item3">3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum incidunt, natus culpa cumque laboriosam veniam. Nobis deserunt est at. Dolores.</div>
+      <div class="item4">4</div>
+      <div class="item5">5</div>
+      <div class="item6">6 Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, nisi.</div>
+      <div class="item7">7</div>
+      <div class="item8">8 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, dolor.</div>
+    </div>
+
+
+
+
+
+    <h1>Grid</h1>
+    <div class="gridbox">
+        <div class="griditem1">1  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas atque iure libero laudantium fugit animi minus deleniti ducimus dolores voluptate Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas atque iure libero laudantium fugit animi minus deleniti ducimus dolores voluptate?</div>
+        <div class="griditem2">2</div>
+        <div class="griditem3">3</div>
+        <div class="griditem4">4</div>
+        <div class="griditem5">5</div>
+        <div class="griditem6">6</div>
+        <div class="griditem7">7</div>
+        <div class="griditem8">8</div>
+    </div>
+  </body>
+</html>

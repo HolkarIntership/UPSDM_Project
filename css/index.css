@@ -31,3 +31,58 @@ p{
   height: 6px;
   background-color: black;
 } */
+
+.next_icon{
+  background: #000;
+  display: inline;
+  /* height: 70px; */
+}
+
+
+
+.mybox{
+  position: relative;
+  bottom: 60px;
+  z-index: 999;
+}
+.candidate_box{
+  width: 200px;
+  height: 200px;
+  background-color: blueviolet;
+  color: white;
+  border: 5px solid white;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+.candidate_box > svg {
+  font-size: 40px;
+}
+.candidate_box > p {
+  font-size: 18px;
+  max-width: 100px;
+  text-align: center;
+  line-height: 1;
+}
+
+
+.minister{
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.name{
+  position: absolute;
+  bottom: 0;
+  background-color: black;
+  color: white;
+  width: 100%;
+  padding: 0 5px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  text-align: center;
+  font-size: 12px;
+}
