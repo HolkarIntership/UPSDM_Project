@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin-bottom: 0;
+}
+
+
+.navbar_bg{
+    background-color: aquamarine;
+}
+
+.right_nav > svg{
+    font-size: 12px;
+
+}
+.right_nav > .tee{
+    background-color: orange;
+    padding: 10px;
+}
+.nav-item{
+    border-right: 2px solid black;
+}
+.prev_icon{
+    background: #000;
+}
+.prev_icon > .carousel-control-prev-icon{
+    color: black;
+    
+}
+
+
+.main_box{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 60px;
+    z-index: 9;
+}
+.candiate_box{
+    width: 200px;
+    height: 200px;
+    background: blueviolet;
+    border: 5px solid white;
+    border-radius: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.candiate_box > svg{
+    font-size: 40px;
+}
+.candiate_box > p{
+    font-size: 18px;
+    max-width: 100px;
+    text-align: center;
+    line-height: 1;
+}
