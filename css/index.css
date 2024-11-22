@@ -68,6 +68,32 @@ p{
   line-height: 1;
 }
 
+.left_section{
+  width: 65%;
+}
+
+.left_section .description{
+margin-top: 40px;
+text-align: center;
+}
+.left_section .des{
+  background-color: orangered;
+  width: 350px;
+  /* height: 30px; */
+  padding: 3px 0;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin: auto;
+  line-height: 0.8;
+}
+
+.right_section{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  gap: 20px;
+}
+
 
 .minister{
   border-radius: 10px;
@@ -85,4 +111,45 @@ p{
   padding-bottom: 5px;
   text-align: center;
   font-size: 12px;
+}
+#sumit{
+  font-family: "Bokor", system-ui;
+}
+.skill_heading{
+
+}
+.skill_heading p{
+  font-size: 32px;
+  border-bottom: 2px dashed orangered;
+
+}
+.registration_box{
+  width: 200px;
+  height: 200px;
+  background-color: rgb(255, 115, 0);
+  border-radius: 50%;
+  outline: 3px dashed goldenrod;
+  outline-offset: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.registration_hover{
+  background-color: gray;
+  height: 100%;
+  width: 100%;
+  padding: 25px;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: all 1s ease-in-out;
+  
+}
+
+
+.registration_box:hover .registration_hover{
+  opacity: 1;
 }

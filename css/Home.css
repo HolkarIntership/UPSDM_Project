@@ -62,3 +62,71 @@ p{
     text-align: center;
     line-height: 1;
 }
+
+
+
+.left{
+    text-align: center;
+    width: 60%;
+}
+.left h2{
+    font-size: 42px;
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+}
+.left .des{
+    background-color: rgb(255, 94, 0);
+    color: white;
+    max-width: 300px;
+    font-size: 24px;
+    margin: auto;
+    
+}
+.left p{
+    margin-top: 20px;
+}
+
+
+.right{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 20px;
+}
+
+
+.minister{
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+
+}
+.name{
+    background-color: rgba(0, 0, 0, 0.863);
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.skill_heading{
+    font-size: 32px ;
+   font-weight: 900;
+}
+
+.registration_box{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: red;
+    border: 5px dashed gray;
+    offset: 3px;
+    outline: 2px solid blue;
+    outline-offset: 20px;
+}
+
+#sumit{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

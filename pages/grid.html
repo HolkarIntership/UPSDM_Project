@@ -32,14 +32,19 @@
         background-color: blueviolet;
         padding: 10px;
         display: grid;
-        grid-template-columns: repeat(3, (minmax(0 1fr)));
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+
         gap: 15px;
     }
     .gridbox > div{
         background-color: cadetblue;
         padding: 20px;
     }
-    
+    .griditem1{
+      grid-column-start:  1;
+      grid-column-end:  4;
+      grid-row-start: span 2;
+    }
 
 </style>
 
