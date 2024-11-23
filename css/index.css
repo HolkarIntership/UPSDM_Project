@@ -3,13 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
-p{
+
+p {
   margin-bottom: 0;
 }
-.right_nav > svg{
+
+.right_nav>svg {
   font-size: 12px;
-} 
-.right_nav .te{
+}
+
+.right_nav .te {
   background-color: orange;
   font-size: 20px;
   padding: 5px;
@@ -32,7 +35,7 @@ p{
   background-color: black;
 } */
 
-.next_icon{
+.next_icon {
   background: #000;
   display: inline;
   /* height: 70px; */
@@ -40,12 +43,13 @@ p{
 
 
 
-.mybox{
+.mybox {
   position: relative;
   bottom: 60px;
   z-index: 999;
 }
-.candidate_box{
+
+.candidate_box {
   width: 200px;
   height: 200px;
   background-color: blueviolet;
@@ -58,25 +62,28 @@ p{
   flex-direction: column;
   gap: 15px;
 }
-.candidate_box > svg {
+
+.candidate_box>svg {
   font-size: 40px;
 }
-.candidate_box > p {
+
+.candidate_box>p {
   font-size: 18px;
   max-width: 100px;
   text-align: center;
   line-height: 1;
 }
 
-.left_section{
+.left_section {
   width: 65%;
 }
 
-.left_section .description{
-margin-top: 40px;
-text-align: center;
+.left_section .description {
+  margin-top: 40px;
+  text-align: center;
 }
-.left_section .des{
+
+.left_section .des {
   background-color: orangered;
   width: 350px;
   /* height: 30px; */
@@ -88,19 +95,20 @@ text-align: center;
   line-height: 0.8;
 }
 
-.right_section{
+.right_section {
   display: grid;
-  grid-template-columns: 1fr 1fr ;
+  grid-template-columns: 1fr 1fr;
   gap: 20px;
 }
 
 
-.minister{
+.minister {
   border-radius: 10px;
   position: relative;
   overflow: hidden;
 }
-.name{
+
+.name {
   position: absolute;
   bottom: 0;
   background-color: black;
@@ -112,28 +120,37 @@ text-align: center;
   text-align: center;
   font-size: 12px;
 }
-#sumit{
+
+#sumit {
   font-family: "Bokor", system-ui;
 }
-.skill_heading{
 
-}
-.skill_heading p{
+.skill_heading {}
+
+.skill_heading p {
   font-size: 32px;
   border-bottom: 2px dashed orangered;
 
 }
-.registration_box{
+
+.registration_box_modal p {
+  font-size: 28px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.registration_box {
   width: 200px;
   height: 200px;
   background-color: rgb(255, 115, 0);
   border-radius: 50%;
-  outline: 3px dashed goldenrod;
-  outline-offset: 10px;
+  outline: 3px dashed gray;
+  outline-offset: 5px;
   position: relative;
   overflow: hidden;
 }
-.registration_hover{
+
+.registration_hover {
   background-color: gray;
   height: 100%;
   width: 100%;
@@ -145,11 +162,53 @@ text-align: center;
   justify-content: center;
   align-items: center;
   opacity: 0;
-  transition: all 1s ease-in-out;
-  
+  transition: all 0.5s ease-in-out;
+
 }
 
 
-.registration_box:hover .registration_hover{
+.registration_box:hover .registration_hover {
   opacity: 1;
+}
+
+.left_latest {
+  width: 60%;
+}
+
+.right_latest {
+  width: 40%;
+}
+
+.latest_list_box {
+  height: 400px;
+  overflow-y: scroll;
+}
+
+.latest_list svg {
+  font-size: 38px;
+  color: orangered;
+}
+
+.skill_progress {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 50px;
+  padding: 50px 0;
+}
+
+.training_box {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  margin: auto;
+
+}
+
+.footer {
+  background: rgb(75,75,75);
+background: linear-gradient(105deg, rgba(75,75,75,1) 0%, rgba(0,0,0,1) 90%, rgba(139,85,24,1) 100%);
+  color: white;
+  height: 400px;
+  padding-top: 50px;
 }
