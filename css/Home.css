@@ -120,13 +120,58 @@ p{
     height: 200px;
     border-radius: 50%;
     background-color: red;
-    border: 5px dashed gray;
     offset: 3px;
-    outline: 2px solid blue;
-    outline-offset: 20px;
+    outline: 2px dashed gray;
+    outline-offset: 5px;
+    position: relative;
+    overflow: hidden;
+}
+.registration_hover{
+    background-color: gray;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+.registration_box:hover .registration_hover{
+    opacity: 1;
 }
 
-#sumit{
+.skill_items p{
+    font-size: 28px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Edu AU VIC WA NT Pre", cursive;
 
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Latest_section{
+    width: 60%;
+}
+
+.Latest_section_content{
+
+    height: 400px;
+    overflow-y: scroll;
+}
+.right_latest{
+    width: 40%;
+}
+.latest_update svg{
+font-size: 32px;
+color: orangered;
+}
+
+
+.skill_development_heading p{
+    font-size: 32px;
+    font-weight: 900;
+    text-align: center;
 }
